@@ -32,4 +32,10 @@ public class TarjetaDeCredito {
         }
         return false;
     }
+
+    public void setLimite(double limite) {
+        this.limite = limite;
+    }
+
+
 }

@@ -2,7 +2,7 @@ public class Compra {
     private double valor;
     private String descripcion;
 
-    public Compra(double valor, String descripcion) {
+    public Compra( String descripcion, double valor) {
         this.valor = valor;
         this.descripcion = descripcion;
     }
@@ -17,7 +17,6 @@ public class Compra {
 
     @Override
     public String toString() {
-        String s = "Compra Descripcion: " + descripcion + " valor: " + valor;
-        return s;
+        return "Compra Descripcion: " + descripcion + " valor: " + valor;
     }
 }
