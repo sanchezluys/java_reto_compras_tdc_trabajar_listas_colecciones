@@ -58,5 +58,8 @@ public class Principal {
             System.out.println(compra.getDescripcion()+" -> "+compra.getValor());
         }
         System.out.println("**********************************");
+        System.out.println("***** LISTA ORDENADA *********");
+
+
     }
 }
