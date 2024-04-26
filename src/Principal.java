@@ -33,7 +33,7 @@ public class Principal {
 
             if(compraRealizada){
                 System.out.println("Solicitud en proceso... ");
-                System.out.println("Su saldo actual: "+ disponible + " y es sufieciente para realizar la compra... ");
+                System.out.println("Su saldo actual: "+ disponible + " y es suficiente para realizar la compra... ");
                 System.out.println("Compra Exitosa, su nuevo saldo es: "+ tdc.getSaldo());
                 System.out.println("Escriba 1 si desea agregar otra compra, 0: para salir ");
                 cuenta++;
@@ -47,10 +47,16 @@ public class Principal {
             }
         }
         System.out.println("**********************************");
-        System.out.println("***** HISTORIAL DE COMPRAS ******");
+        System.out.println("***** HISTORIAL DE TDC ******");
         System.out.println("1. Limite aprobado: "+limite);
         System.out.println("2. Monto consumido: "+consumo);
         System.out.println("3. Monto disponible: " +(limite-consumo));
         System.out.println("4. Número de compras: "+ (cuenta-1));
+        System.out.println("**********************************");
+        System.out.println("****** LISTADO DE COMPRAS REALIZADAS *******");
+        for (Compra compra: tdc.getListaDeCompras()){
+            System.out.println(compra.getDescripcion()+" -> "+compra.getValor());
+        }
+        System.out.println("**********************************");
     }
 }
