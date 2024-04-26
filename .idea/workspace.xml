@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67a35d7-1b80-4e0b-a2b0-36f7dd75409c" name="Changes" comment="se crean las clases banco, principal, se crea el resumen del informe final. solo falta el listado en orden">
+    <list default="true" id="d67a35d7-1b80-4e0b-a2b0-36f7dd75409c" name="Changes" comment="se saca el listado de articulos comprados">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TarjetaDeCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TarjetaDeCredito.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,8 @@
     "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "project.propGUI"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714169063798</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="se saca el listado de articulos comprados">
+      <option name="closed" value="true" />
+      <created>1714169484250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714169484250</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +136,7 @@
     <MESSAGE value="iniciando el reto" />
     <MESSAGE value="se crean las clases tarjeta de credito y compra" />
     <MESSAGE value="se crean las clases banco, principal, se crea el resumen del informe final. solo falta el listado en orden" />
-    <option name="LAST_COMMIT_MESSAGE" value="se crean las clases banco, principal, se crea el resumen del informe final. solo falta el listado en orden" />
+    <MESSAGE value="se saca el listado de articulos comprados" />
+    <option name="LAST_COMMIT_MESSAGE" value="se saca el listado de articulos comprados" />
   </component>
 </project>

@@ -1,29 +1,29 @@
 import java.util.ArrayList;
 import java.util.List;
-
+//
 public class TarjetaDeCredito {
     private double limite;
     private double saldo;
     private List<Compra> listaDeCompras;
-
+    //
     public TarjetaDeCredito(double limite) {
         this.limite = limite;
         this.saldo = limite;
         this.listaDeCompras = new ArrayList<>(); // se inicializa vacia
     }
-
+    //
     public double getLimite() {
         return limite;
     }
-
+    //
     public double getSaldo() {
         return saldo;
     }
-
+    //
     public List<Compra> getListaDeCompras() {
         return listaDeCompras;
     }
-
+    //
     public boolean lanzarCompra(Compra compra){
         if(this.saldo > compra.getValor()){
             this.saldo-= compra.getValor();
@@ -32,10 +32,8 @@ public class TarjetaDeCredito {
         }
         return false;
     }
-
+    //
     public void setLimite(double limite) {
         this.limite = limite;
     }
-
-
 }
