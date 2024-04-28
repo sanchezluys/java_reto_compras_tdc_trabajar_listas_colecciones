@@ -6,8 +6,9 @@ Reto Java Listas y Colecciones
 4. Debe existir un menu de compras
 5. Al final se debe mostrar la lista de articulos comprados ordenados de menor a mayor por precio
 
-| Version | Caracteristicas                                                                 | Bugs |
-|---------|---------------------------------------------------------------------------------|------|
+| Versión | Caracteristicas                                                                | Bugs |
+|---------|--------------------------------------------------------------------------------|------|
 | 1       | listado de compras en orden normal<br/>historico final del estado de la tarjeta |      |
-|         | Sin manejo de errores                                                           |      |
-
+|         | Sin manejo de errores                                                                               |      |
+| 2       | listado de compras en orden, menor a mayor                                                          |  aun no funciona    |
+|         |                                                                                |      |
