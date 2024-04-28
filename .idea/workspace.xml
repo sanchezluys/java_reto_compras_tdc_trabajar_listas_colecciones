@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d67a35d7-1b80-4e0b-a2b0-36f7dd75409c" name="Changes" comment="se le agregan emoticons">
-      <change beforePath="$PROJECT_DIR$/src/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compra.java" afterDir="false" />
+    <list default="true" id="d67a35d7-1b80-4e0b-a2b0-36f7dd75409c" name="Changes" comment="se agrega el contrato y la comparacion, pero sigue mostrando en orden de entrada igua.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714170956109</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="se agrega el contrato y la comparacion, pero sigue mostrando en orden de entrada igua.">
+      <option name="closed" value="true" />
+      <created>1714327466140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714327466140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +150,9 @@
     <MESSAGE value="se crean las clases tarjeta de credito y compra" />
     <MESSAGE value="se crean las clases banco, principal, se crea el resumen del informe final. solo falta el listado en orden" />
     <MESSAGE value="se saca el listado de articulos comprados" />
+    <MESSAGE value="se inicia revision para sacar la lista ordenada" />
     <MESSAGE value="se le agregan emoticons" />
-    <option name="LAST_COMMIT_MESSAGE" value="se le agregan emoticons" />
+    <MESSAGE value="se agrega el contrato y la comparacion, pero sigue mostrando en orden de entrada igua." />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrega el contrato y la comparacion, pero sigue mostrando en orden de entrada igua." />
   </component>
 </project>

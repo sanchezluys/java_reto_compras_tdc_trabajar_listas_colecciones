@@ -1,3 +1,5 @@
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
@@ -53,13 +55,17 @@ public class Principal {
         System.out.println("3. Monto disponible: " +(limite-consumo));
         System.out.println("4. Número de compras: "+ (cuenta-1));
         System.out.println("**********************************");
-        System.out.println("****** LISTADO DE COMPRAS REALIZADAS *******");
+        System.out.println("****** LISTADO DE COMPRAS REALIZADAS ORDEN ORIGINAL *******");
         for (Compra compra: tdc.getListaDeCompras()){
             System.out.println(compra.getDescripcion()+" -> "+compra.getValor());
         }
         System.out.println("**********************************");
-        System.out.println("***** LISTA ORDENADA *********");
 
-
+        System.out.println("***** AHORA LA LISTA ORDENADA MENOR A MAYOR (PRECIO)*********");
+        Collections.sort(tdc.getListaDeCompras());
+        for (Compra compra: tdc.getListaDeCompras()){
+            System.out.println(compra.getDescripcion()+" -> "+compra.getValor());
+        }
+        System.out.println("**********************************");
     }
 }
